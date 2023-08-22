@@ -1,7 +1,7 @@
 abstract class Shape {
     public abstract void draw();
 
-    @Override
+    
     public abstract String toString();
 }
 
@@ -24,12 +24,12 @@ class Square extends Shape {
         this.sideLength = sideLength;
     }
 
-    @Override
+    
     public void draw() {
         System.out.println("Drawing a square with side length: " + sideLength);
     }
 
-    @Override
+    
     public String toString() {
         return "Square with side length: " + sideLength;
     }
@@ -65,12 +65,12 @@ class Rectangle extends Shape {
         this.width = width;
     }
 
-    @Override
+    
     public void draw() {
         System.out.println("Drawing a rectangle with length: " + length + " and width: " + width);
     }
 
-    @Override
+    
     public String toString() {
         return "Rectangle with length: " + length + " and width: " + width;
     }
@@ -106,12 +106,12 @@ class Triangle extends Shape {
         this.height = height;
     }
 
-    @Override
+    
     public void draw() {
         System.out.println("Drawing a triangle with base: " + base + " and height: " + height);
     }
 
-    @Override
+    
     public String toString() {
         return "Triangle with base: " + base + " and height: " + height;
     }
